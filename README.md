@@ -1,27 +1,35 @@
-# ProductCatlog
+#Angular Product Catalog App With Cypress End-to-End Testing
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
+#This project is a simple Angular 18 application that displays a product catalog loaded from a JSON file.  
+#It includes a complete Cypress E2E test suite to verify the core functionality of the application.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+#Features
+- Angular 18 standalone application (no NgModules)
+- Product list loaded from a JSON file
+- Real-time search (case-insensitive)
+- Product details modal with image, price, and description
+- Clean Material Design–inspired UI
+- Full Cypress E2E test coverage
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#Technologies Used
+- Angular 18
+- TypeScript
+- Cypress 
+- Netlify (deployment)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+#Getting Started
 
-## Running unit tests
+Step 1: bash git clone "https://github.com/<your-username>/<your-repo-name>.git" 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Step 2: cd "your-repo-name"
 
-## Running end-to-end tests
+Step 3: Open terminal and run "npm install". It will automatically install all the dependencies required.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Step 4: Type "ng serve --o" it will start server and open up website on browser.(http://localhost:4200)
 
-## Further help
+Step 5: To start testing in cypress type "npx cypress open". It will open cypress UI & you can select E2E testing.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Step 6: Open the testing script and it will run through all test cases given.
