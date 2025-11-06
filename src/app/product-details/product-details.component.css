@@ -1,0 +1,94 @@
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  backdrop-filter: blur(2px);
+}
+
+.modal {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 850px;
+  padding: 1.5rem;
+  box-shadow: 0px 6px 18px rgba(0,0,0,0.25);
+  position: relative;
+  animation: dialogPop 0.2s ease-out;
+}
+
+@keyframes dialogPop {
+  from { transform: scale(0.94); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.close-btn {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: transparent;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: #555;
+}
+
+.modal-content {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-large-img {
+  width: 310px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 14px;
+  background: #eee;
+}
+
+.info {
+  flex: 1;
+  min-width: 260px;
+}
+
+.info h2 {
+  margin-bottom: 0.4rem;
+  color: #202124;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.price {
+  color: #1a73e8;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.9rem;
+}
+
+.desc {
+  color: #555;
+  margin-bottom: 1.2rem;
+  line-height: 1.45rem;
+}
+
+/* Material Action Button */
+.buy-btn {
+  background: #1a73e8;
+  color: white;
+  padding: 0.7rem 1.4rem;
+  border-radius: 30px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.buy-btn:hover {
+  background: #1765cc;
+}

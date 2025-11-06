@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "price": 250.00,
+    "image": "mouse.jpg",
+    "description": "An ergonomic wireless mouse with a long-lasting battery, perfect for office work and gaming. Comfortable grip and precision sensor ideal for long sessions."
+  },
+  {
+    "id": 2,
+    "name": "Mechanical Keyboard",
+    "price": 990.00,
+    "image": "keyboard.jpg",
+    "description": "A durable mechanical keyboard with customizable RGB backlighting and tactile key switches. Great for typists and gamers who love feedback."
+  },
+  {
+    "id": 3,
+    "name": "Gaming Headset",
+    "price": 580.00,
+    "image": "headset.jpg",
+    "description": "Surround sound gaming headset with noise cancelling mic and plush ear cushions for hours of comfortable play."
+  },
+  {
+    "id": 4,
+    "name": "Type-C USB Charger",
+    "price": 450.00,
+    "image": "charger.jpg",
+    "description": "USB Type-C Charger Fast-charging, reversible, and compatible with most smartphones, tablets, and laptops. Delivers efficient power and high-speed data transfer in a compact design."
+  },
+  {
+    "id": 5,
+    "name": "IPS Monitor",
+    "price": 22900.00,
+    "image": "monitor.jpg",
+    "description": "24-inch full HD IPS monitor with wide viewing angles and ultra-slim bezels. Perfect for coding, media, and gaming."
+  },
+  {
+    "id": 6,
+    "name": "Graphics Card",
+    "price": 67900.00,
+    "image": "gpu.jpg",
+    "description": "A GPU (Graphics Processing Unit) is a specialized processor designed to accelerate graphics rendering and perform parallel computations, making it essential for gaming, AI, and data processing tasks."
+  }
+]

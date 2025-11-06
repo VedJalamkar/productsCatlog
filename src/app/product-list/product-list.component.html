@@ -1,0 +1,44 @@
+<div class="search-container">
+  <input
+    data-cy="search-input"
+    [(ngModel)]="query"
+    (ngModelChange)="onSearchChange()"
+    placeholder="Search for products..."
+    class="search-input"
+  />
+</div>
+
+<div *ngIf="loading" class="loading">Loading products...</div>
+<div *ngIf="error" class="error">{{ error }}</div>
+
+<div class="product-grid" *ngIf="!loading && !error && filtered.length > 0">
+  <div
+    class="product-card"
+    *ngFor="let p of filtered; trackBy: trackById"
+    (click)="openDetails(p)"
+    data-cy="product-card"
+  >
+    <div class="img-wrapper">
+      <img [src]="p.image" alt="{{ p.name }}" />
+    </div>
+
+    <div class="details">
+      <h3>{{ p.name }}</h3>
+      <p class="price">₹{{ p.price.toFixed(2) }}</p>
+      <button class="view-btn">View Details</button>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="filtered.length === 0" class="no-results">
+  No products found.
+</div>
+
+<app-product-details
+  *ngIf="selectedProduct"
+  [product]="selectedProduct"
+  (close)="closeDetails()"
+  data-cy="product-modal"
+></app-product-details>
+
+
