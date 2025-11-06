@@ -22,9 +22,9 @@
 
 #Getting Started
 
-Step 1: bash git clone https://github.com/<your-username>/<your-repo-name>.git 
+Step 1: bash git clone "https://github.com/<your-username>/<your-repo-name>.git" 
 
-Step 2: cd <your-repo-name>
+Step 2: cd "your-repo-name"
 
 Step 3: Open terminal and run "npm install". It will automatically install all the dependencies required.
 
