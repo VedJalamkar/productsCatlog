@@ -19,12 +19,14 @@
 - Cypress 
 - Netlify (deployment)
 
+#Visit the site for demo view: products-catlog.netlify.app
+
 
 #Getting Started
 
-Step 1: bash git clone "https://github.com/<your-username>/<your-repo-name>.git" 
+Step 1: clone the repository to your device.
 
-Step 2: cd "your-repo-name"
+Step 2: cd "repo-name"
 
 Step 3: Open terminal and run "npm install". It will automatically install all the dependencies required.
 
